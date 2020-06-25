@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container_1{
+  margin-top: 3px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.ipad{
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  width: 300px;
+  height: 400px;
+}
+.iphone{
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  width: 300px;
+  height: 400px;
+}
+.beat{
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  width: 300px;
+  height: 400px;
+}
