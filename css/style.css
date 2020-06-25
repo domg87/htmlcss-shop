@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
 }
-.container_1{
+section{
+  width: auto;
+  height: auto;
+}
+
+/* riquadri */
+.container1, .container2{
   margin-top: 3px;
   margin-left: 13%;
   margin-right: 13%;
@@ -29,4 +35,25 @@
   background-color: red;
   width: 300px;
   height: 400px;
+}
+/* riquadri */
+.discount1{
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+.discount1:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.image{
+  position: absolute;
+  background-color: gray;
+  width: 200px;
+  height: 250px;
+  top: 20%;
+  right: 30%;
+  bottom: 20%;
+  left: 18%;
 }
