@@ -9,7 +9,7 @@ section{
 }
 
 /* riquadri */
-.container1, .container2{
+.container1,  .container2{
   margin-top: 3px;
   margin-left: 13%;
   margin-right: 13%;
@@ -18,7 +18,7 @@ section{
 .ipad{
   position: relative;
   display: inline-block;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   width: 300px;
   height: 400px;
 }
@@ -39,26 +39,27 @@ section{
 /* riquadri */
 
 /* prodotto1 */
-.discount1{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount1:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .image_ipad{
   position: absolute;
   background-image: url(../img/pd1.jpg);
   width: 300px;
-  height: 372px;
-  top: 5%;
+  height: 400px;
+  /* top: 5%;
   right: 5%;
   bottom: 5%;
-  left: 0%;
+  left: 0%; */
 }
+
+.discount1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+
 h4{
   color: red;
 }
@@ -76,16 +77,8 @@ h4{
 /* /prodotto1 */
 
 /* prodotto2 */
-.discount1{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount1:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
+
 .red{
   background-color: red;
 }
@@ -99,6 +92,16 @@ h4{
   bottom: 5%;
   left: 0%;
 }
+
+.discount1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+
 h4{
   color: red;
 }
@@ -116,16 +119,7 @@ h4{
 /* /prodotto2 */
 
 /* prodotto3 */
-.discount1{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount1:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .image_beat{
   position: absolute;
   background-image: url(../img/pd3.jpg);
@@ -136,6 +130,16 @@ h4{
   bottom: 5%;
   left: 0%;
 }
+
+.discount1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+
 h4{
   color: red;
 }
@@ -155,16 +159,7 @@ h4{
 /* inizio sezione prodotti 2 */
 
 /* prodotto4 */
-.discount2{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount2:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .image_ipad{
   position: absolute;
   background-image: url(../img/pd1.jpg);
@@ -175,6 +170,16 @@ h4{
   bottom: 5%;
   left: 0%;
 }
+
+.discount2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+
 h4{
   color: red;
 }
@@ -192,19 +197,7 @@ h4{
 /* /prodotto4 */
 
 /* prodotto5 */
-.discount2{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount2:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.red{
-  background-color: red;
-}
+
 .image_iphone{
   position: absolute;
   background-image: url(../img/pd2.jpg);
@@ -215,6 +208,20 @@ h4{
   bottom: 5%;
   left: 0%;
 }
+
+.discount2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  width: 50px;
+  height: 20px;
+}
+
+/* .red{
+  background-color: red;
+} */
+
 h4{
   color: red;
 }
@@ -232,16 +239,7 @@ h4{
 /* /prodotto5 */
 
 /* prodotto6 */
-.discount2{
-  background-color: green;
-  width: 50px;
-  height: 20px;
-}
-.discount2:first-child {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .image_beat{
   position: absolute;
   background-image: url(../img/pd3.jpg);
@@ -252,6 +250,16 @@ h4{
   bottom: 5%;
   left: 0%;
 }
+
+.discount2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+
 h4{
   color: red;
 }
