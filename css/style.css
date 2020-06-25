@@ -25,18 +25,20 @@ section{
 .iphone{
   position: relative;
   display: inline-block;
-  background-color: red;
+  background-color: lightgray;
   width: 300px;
   height: 400px;
 }
 .beat{
   position: relative;
   display: inline-block;
-  background-color: red;
+  background-color: lightgray;
   width: 300px;
   height: 400px;
 }
 /* riquadri */
+
+/* prodotto1 */
 .discount1{
   background-color: green;
   width: 50px;
@@ -47,15 +49,15 @@ section{
   top: 0;
   right: 0;
 }
-.image{
+.image_ipad{
   position: absolute;
-  background-color: gray;
-  width: 200px;
-  height: 250px;
-  top: 20%;
-  right: 30%;
-  bottom: 20%;
-  left: 18%;
+  background-image: url(../img/pd1.jpg);
+  width: 300px;
+  height: 372px;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 0%;
 }
 h4{
   color: red;
@@ -71,3 +73,81 @@ h4{
 .ipad:hover .heart{
   display: block;
 }
+/* /prodotto1 */
+
+/* prodotto2 */
+.discount1{
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+.discount1:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.red{
+  background-color: red;
+}
+.image_iphone{
+  position: absolute;
+  background-image: url(../img/pd2.jpg);
+  width: 300px;
+  height: 372px;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 0%;
+}
+h4{
+  color: red;
+}
+.heart{
+  position: absolute;
+  display: inline-block;
+  bottom: 5%;
+  left: 48%;
+  font-size: 200%;
+  display: none;
+}
+.iphone:hover .heart{
+  display: block;
+}
+/* /prodotto2 */
+
+/* prodotto3 */
+.discount1{
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+.discount1:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.image_beat{
+  position: absolute;
+  background-image: url(../img/pd3.jpg);
+  width: 300px;
+  height: 372px;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 0%;
+}
+h4{
+  color: red;
+}
+.heart{
+  position: absolute;
+  display: inline-block;
+  bottom: 5%;
+  left: 48%;
+  font-size: 200%;
+  display: none;
+}
+.beat:hover .heart{
+  display: block;
+}
+/* /prodotto3 */
